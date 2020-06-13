@@ -9,7 +9,7 @@ namespace ShoppingCartApp
 		public static void Main(string[] args)
 		{
 			//Console.WriteLine("Hello World");
-
+			Console.WriteLine("Shopping Cart Application");
 		}
 	}
 	//Product Class

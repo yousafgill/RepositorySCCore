@@ -11,6 +11,7 @@ namespace ShoppingCartAppUnitTest
 
 			//Expected Result
 			decimal expected = (decimal)199.95;
+
 			ShoppingCartApp.ShoppingCart cart = new ShoppingCartApp.ShoppingCart();
 			// Add 5 Dove Soaps to Shopping Cart
 			for (int i = 0; i < 5; i++)
@@ -20,6 +21,7 @@ namespace ShoppingCartAppUnitTest
 			}
 			//Actual Result after adding 5 Dove Soap of Unit Price 39.99
 			decimal actual = cart.TotalCartAmount();
+
 			Assert.AreEqual(expected, actual);
 		}
 		[TestMethod]
