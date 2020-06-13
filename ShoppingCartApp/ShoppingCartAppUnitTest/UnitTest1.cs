@@ -11,6 +11,7 @@ namespace ShoppingCartAppUnitTest
 
 			//Expected Result
 			decimal expected = (decimal)199.95;
+			
 
 			ShoppingCartApp.ShoppingCart cart = new ShoppingCartApp.ShoppingCart();
 			// Add 5 Dove Soaps to Shopping Cart
@@ -57,7 +58,7 @@ namespace ShoppingCartAppUnitTest
 			//Expected Result
 			decimal expected = (decimal)314.96;
 
-
+			//New ShoppingCart Object
 			ShoppingCartApp.ShoppingCart cart = new ShoppingCartApp.ShoppingCart();
 
 			// Add 5 Dove Soaps to Shopping Cart
@@ -73,7 +74,6 @@ namespace ShoppingCartAppUnitTest
 				ShoppingCartApp.Product p1 = new ShoppingCartApp.Product("Axe Deo's", (decimal)99.99);
 				cart.AddProduct(p1, 1);
 			}
-
 
 			//Actual Result after adding 2 Dove Soaps & 2 Axe Deos Plus Tax Rate 12.5
 			decimal tax = (decimal)12.5;

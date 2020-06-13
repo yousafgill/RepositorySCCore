@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using System.Diagnostics;
 namespace ShoppingCartApp
 {
 	public class Program
@@ -10,6 +10,7 @@ namespace ShoppingCartApp
 		{
 			//Console.WriteLine("Hello World");
 			Console.WriteLine("Shopping Cart Application");
+			
 		}
 	}
 	//Product Class
